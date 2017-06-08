@@ -1,0 +1,52 @@
+@import '../../styles/variables.scss';
+
+.Footer {
+  width: 100%;
+  display: flex;
+
+  @include mobile {
+    flex-direction: column;
+  }
+
+  &__col1, &__col2 {
+    width: 50%;
+
+    @include mobile {
+      width: 100%;
+      text-align: center !important;
+    }
+  }
+
+  &__col2 {
+    text-align: right;
+
+    @include mobile {
+      padding: 20px 0;
+    }
+  }
+
+  &__header {
+    font-weight: $bold;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    padding-bottom: 15px;
+  }
+
+  &__socialIcon {
+    height: 20px;
+  }
+
+  &__socialIcons {
+    > a {
+      padding-right: 15px;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+
+  &__email > a:hover {
+    border-bottom: 1px solid;
+  }
+}

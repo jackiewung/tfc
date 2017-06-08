@@ -1,0 +1,49 @@
+// root
+$root-font: 'courier new';
+$root-bg: #FFF;
+$root-color: #000;
+
+
+// breakpoints
+$mobileBreakpoint: 768;
+$desktopBreakpoint: 1100;
+
+
+// padding
+$tb-padding: 50px;
+$ltr-padding: 250px;
+
+
+// font weights
+$light: 100;
+$regular: 300;
+$medium: 500;
+$bold: 600;
+
+$mainPhotoWidth: 550px;
+
+
+// mobile + desktop
+@mixin desktop {
+  @media only screen and (min-width: '#{$desktopBreakpoint + 1}px') {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (min-width: '#{$mobileBreakpoint + 1}px') and (max-width: '#{$desktopBreakpoint}px') {
+    @content;
+  }
+}
+
+@mixin tabletAndDesktop {
+  @media only screen and (min-width: '#{$mobileBreakpoint + 1}px') {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media only screen and (max-width: '#{$mobileBreakpoint}px') {
+    @content;
+  }
+}

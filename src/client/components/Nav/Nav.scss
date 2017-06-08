@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+
+.Nav {
+  display: flex;
+
+  &__link {
+    padding: 0 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+  }
+
+  &__subscribe:hover {
+    background: #fad364;
+    color: #000;
+  }
+
+  a:hover {
+    border-bottom: 1px solid;
+  }
+}

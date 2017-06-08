@@ -1,0 +1,52 @@
+@import '../../styles/variables.scss';
+
+.Subscribe {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: rgba(0,0,0,0.3);
+  top: 0;
+  left: 0;
+
+  &__modal {
+    background: #fff;
+    margin: 15% auto;
+    width: 500px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+
+    @include mobile {
+      width: 90%;
+    }
+  }
+
+  &__input {
+    padding: 5px 10px;
+    border: 2px solid;
+  }
+
+  &__submit {
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: $bold;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__close {
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+  }
+}
