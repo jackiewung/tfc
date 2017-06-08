@@ -3,9 +3,14 @@
 .MainPhotos {
   display: flex;
   width: 100%;
-  height: 100%;
   justify-content: center;
   overflow: hidden;
+  height: 360px;
+
+  @include mobile {
+    height: 100%;
+    overflow: auto;
+  }
 
   &__photo {
     width: $mainPhotoWidth;

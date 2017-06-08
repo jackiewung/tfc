@@ -16,6 +16,7 @@ const photos = [
 const Photos = () =>
   <div className="Photos">
     { photos.map(photo => (<img src={photo} alt="Tokyo Fried Chicken" key={photo} className="Photos__photoAlbum" />)) }
+    <p>Photos by <strong><a href="https://www.jchongstudio.com/" target="_blank">Jennifer Chong</a></strong></p>
   </div>
 
 export default Photos;

@@ -16,34 +16,36 @@ const Location = () =>
 
       <h1>Hours</h1>
       <table>
-        <tr>
-          <th>Monday</th>
-          <th>Closed</th>
-        </tr>
-        <tr>
-          <th>Tuesday</th>
-          <th>Closed</th>
-        </tr>
-        <tr>
-          <th>Wednesday</th>
-          <th>5:30pm-10pm</th>
-        </tr>
-        <tr>
-          <th>Thursday</th>
-          <th>5:30pm-11pm</th>
-        </tr>
-        <tr>
-          <th>Friday</th>
-          <th>5:30pm-11pm</th>
-        </tr>
-        <tr>
-          <th>Saturday</th>
-          <th>5:30pm-11pm</th>
-        </tr>
-        <tr>
-          <th>Sunday</th>
-          <th>5:30pm-10pm</th>
-        </tr>
+        <tbody>
+          <tr>
+            <th>Monday</th>
+            <th>Closed</th>
+          </tr>
+          <tr>
+            <th>Tuesday</th>
+            <th>Closed</th>
+          </tr>
+          <tr>
+            <th>Wednesday</th>
+            <th>5:30pm-10pm</th>
+          </tr>
+          <tr>
+            <th>Thursday</th>
+            <th>5:30pm-11pm</th>
+          </tr>
+          <tr>
+            <th>Friday</th>
+            <th>5:30pm-11pm</th>
+          </tr>
+          <tr>
+            <th>Saturday</th>
+            <th>5:30pm-11pm</th>
+          </tr>
+          <tr>
+            <th>Sunday</th>
+            <th>5:30pm-10pm</th>
+          </tr>
+        </tbody>
       </table>
 
       <div className="Location__notes">

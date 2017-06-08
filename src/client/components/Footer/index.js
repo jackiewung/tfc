@@ -11,7 +11,7 @@ import './Footer.scss';
 const Footer = () =>
   <div className="Footer">
     <div className="Footer__col1">
-      <h1>Let's Talk</h1>
+      <h1>Talk to us</h1>
       <p>626-282-9829</p>
       <p className="Footer__email"><a href="mailto:info@tokyofriedchicken.com">info@tokyofriedchicken.com</a></p>
     </div>

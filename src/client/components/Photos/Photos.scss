@@ -1,5 +1,7 @@
 @import '../../styles/variables.scss';
 
+$photoHeight: 400px;
+
 .Photos {
   width: 1000px;
   display: flex;
@@ -13,12 +15,16 @@
   }
 
   &__photoAlbum {
-    height: 400px;
+    height: $photoHeight;
     padding: 10px;
 
     @include mobile {
       width: 100%;
       height: 100%;
     }
+  }
+
+  a:hover {
+    border-bottom: 1px solid;
   }
 }
