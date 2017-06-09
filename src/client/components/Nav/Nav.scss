@@ -2,12 +2,17 @@
 
 .Nav {
   display: flex;
+  justify-content: center;
 
   &__link {
     padding: 0 45px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     cursor: pointer;
+
+    @include mobile {
+      padding: 0 15px;
+    }
   }
 
   &__subscribe:hover {
@@ -17,5 +22,9 @@
 
   a:hover {
     border-bottom: 1px solid;
+  }
+
+  @include mobile {
+    width: 100%;
   }
 }
