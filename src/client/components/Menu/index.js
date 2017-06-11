@@ -41,7 +41,7 @@ const menu = {
   extras: [
     { type: 'Chicken rice', price: 'Small 3.5 / Large 6.25' },
     { type: 'Pickled ginger cabbage', price: '1.50' },
-    { type: 'Yuzu pepper Sauce', price: '1 oz. 1.50'}
+    { type: 'Yuzu pepper sauce', price: '1 oz. 1.50'}
   ],
   chickenByThePiece: [
     { type: 'Wing', price: '2.15' },
@@ -60,8 +60,8 @@ const Menu = () =>
       { menu.appetizers.map(appetizer => ( <p key={appetizer}>{appetizer}</p>)) }
 
       <h1 className="Menu__subSection">Chicken Dinner Sets / 13.75 per person</h1>
-      <p>All sets are mixed dark meat - drums, wings, thighs</p>
-      <p>A chicken breast can be substituted for a drum and thigh upon request</p>
+      <p>All sets are mixed - drums, wings, thighs</p>
+      <p>One breast can be substituted for a drum and thigh upon request</p>
       <p>Please enjoy our chicken with our complimentary housemade sweet and spicy ponzu sauces</p>
       <p>Yuzu pepper sauce available upon request at an additional charge</p>
       <br /><br />
@@ -74,11 +74,12 @@ const Menu = () =>
         ))
       }
 
-      <h1 className="Menu__subSection">
-      Sides<br />One side per person included with dinner set or 3.25 each a la carte</h1>
+      <h1 className="Menu__subSection">Sides</h1>
+      <h1>One side per person included with dinner set or 3.25 each a la carte</h1>
       { menu.sides.map(side => (<p key={side}>{side}</p>)) }
 
-      <h1 className="Menu__subSection">Upgraded Sides<br />2.2 each as an upgraded side or 4.75 each a la carte</h1>
+      <h1 className="Menu__subSection">Upgraded Sides</h1>
+      <h1>2.2 each as an upgraded side or 4.75 each a la carte</h1>
       { menu.upgradedSides.map(side => (<p key={side}>{side}</p>)) }
       <br />
       <p>Mac and cheese 3.3 each as an upgraded side or 6 each a la carte</p>

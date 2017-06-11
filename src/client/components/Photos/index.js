@@ -2,15 +2,15 @@ import React from 'react';
 
 import './Photos.scss';
 
-import two from '../../../../public/assets/photos/2.jpg';
-import three from '../../../../public/assets/photos/3.jpg';
-import four from '../../../../public/assets/photos/4.jpg';
-import five from '../../../../public/assets/photos/5.jpg';
-import six from '../../../../public/assets/photos/6.jpg';
-import seven from '../../../../public/assets/photos/7.jpg';
+import two from '../../../../public/assets/photos/2.png';
+import three from '../../../../public/assets/photos/3.png';
+import four from '../../../../public/assets/photos/4.png';
+import five from '../../../../public/assets/photos/5.png';
+import six from '../../../../public/assets/photos/6.png';
+import seven from '../../../../public/assets/photos/7.png';
 
 const photos = [
-  two,three,five,four,six,seven
+  five,two,four,three,five,six,seven
 ]
 
 const Photos = () =>
