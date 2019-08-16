@@ -140,7 +140,7 @@ const Menu = () => (
           </tr>
           <tr>
             <th>"TFC Original" (navy blue)</th>
-            <th>20</th>
+            <th>25</th>
           </tr>
         </tbody>
       </table>

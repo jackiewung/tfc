@@ -12,7 +12,8 @@
     cursor: pointer;
 
     @include mobile {
-      padding: 0 15px;
+      padding: 0px;
+      margin: 0px;
     }
   }
 
@@ -27,5 +28,7 @@
 
   @include mobile {
     width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
 }

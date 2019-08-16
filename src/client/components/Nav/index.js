@@ -31,8 +31,6 @@ class Nav extends PureComponent {
     return (
       <ul className="Nav">
         { navData.map(nav => ( <li className="Nav__link" key={nav.link}><Link to={nav.link}>{nav.text}</Link></li> )) }
-        <li className="Nav__link Nav__subscribe" onClick={this.turnSubscribeOn}>Subscribe</li>
-        { this.state.subscribe && <Subscribe turnOff={this.turnSubscribeOff} /> }
       </ul>
     );
   }
