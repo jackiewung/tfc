@@ -1,1 +1,3 @@
 # tfc
+
+webpack -w

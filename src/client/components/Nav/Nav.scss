@@ -1,8 +1,9 @@
-@import '../../styles/variables.scss';
+@import "../../styles/variables.scss";
 
 .Nav {
   display: flex;
   justify-content: center;
+  align-items: center;
 
   &__link {
     padding: 0 15px;
@@ -30,5 +31,12 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+  }
+
+  &__orderOnline {
+    background: #f3bb45;
+    padding: 10px 20px;
+    border-radius: 100px;
+    text-align: center;
   }
 }
